@@ -282,18 +282,139 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,20,0</string>
+				<key>acpi-wake-type</key>
+				<data>AQ==</data>
+				<key>device_type</key>
+				<string>USB 3.1 Controller</string>
+				<key>model</key>
+				<string>Comet Lake USB 3.1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,0</string>
+				<key>device_type</key>
+				<string>I2C Controller</string>
+				<key>model</key>
+				<string>Comet Lake PCH Serial IO I2C Controller #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,21,1</string>
+				<key>device_type</key>
+				<string>I2C Controller</string>
+				<key>force-polling</key>
+				<data>AQAAAA==</data>
+				<key>model</key>
+				<string>Comet Lake PCH Serial IO I2C Controller #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>AHCI Controller</string>
+				<key>model</key>
+				<string>Intel 10th Generation AHCI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,28,5/0,0</string>
+				<key>device_type</key>
+				<string>SDXC Card Reader</string>
+				<key>model</key>
+				<string>RTS525A PCI Express Card Reader</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>device_type</key>
+				<string>NVMExpress Controller</string>
+				<key>model</key>
+				<string>Apple SSD Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>DwAAAA==</data>
+				<key>model</key>
+				<string>Apple High Definition Audio Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,6</string>
+				<key>device_type</key>
+				<string>Ethernet Controller</string>
+				<key>model</key>
+				<string>Ethernet Connection (11) I219-LM</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>brcmfx-country</key>
+				<string>DE</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
-				<key>device-id</key>
-				<data>mz4AAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>Display Controller</string>
+				<key>disable-agdc</key>
+				<data>AQAAAA==</data>
+				<key>enable-backlight-registers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>enable-max-pixel-clock-override</key>
+				<data>AQAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUSAAAEAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgYSAAAEAACHAQAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con3-alldata</key>
+				<data>AwQSAAAEAACHAQAA</data>
+				<key>framebuffer-con3-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con3-has-lspcon</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>AAAwAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-portcount</key>
+				<data>BAAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>igfxfw</key>
+				<data>AgAAAA==</data>
+				<key>model</key>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
